@@ -125,6 +125,17 @@ public class RegistroP {
                 }
             }
         });
+
+        limpiarFormularioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                inputCedula.setText("");
+                inputCod.setText("");
+                inputNombre.setText("");
+                inputFechaNac.setText("");
+                comboBoxSignoZ.setSelectedIndex(0);
+            }
+        });
     }
 
     //-----METODO PARA RECUPERAR DATOS DE LA GUI A LA CLASE------------------

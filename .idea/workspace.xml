@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab194895-7ec7-4df5-bb33-8f81225e2f3f" name="Changes" comment="bonton delete y update completos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conexion/ConexionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conexion/ConexionBD.java" afterDir="false" />
+    <list default="true" id="ab194895-7ec7-4df5-bb33-8f81225e2f3f" name="Changes" comment="BOTON CONSULTA SIGNO completo">
       <change beforePath="$PROJECT_DIR$/src/GUI/RegistroP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/RegistroP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +55,8 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RegistroP (5)">
-    <configuration name="RegistroP (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RegistroP (1)">
+    <configuration name="RegistroP (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.RegistroP" />
       <module name="Prueba_segundoB" />
       <extension name="coverage">
@@ -125,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegistroP (1)" />
         <item itemvalue="Application.RegistroP (5)" />
         <item itemvalue="Application.RegistroP (4)" />
         <item itemvalue="Application.RegistroP (3)" />
         <item itemvalue="Application.RegistroP" />
-        <item itemvalue="Application.RegistroP (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691164939151</updated>
-      <workItem from="1691164940232" duration="5668000" />
+      <workItem from="1691164940232" duration="5991000" />
     </task>
     <task id="LOCAL-00001" summary="creacion del form">
       <created>1691165482640</created>
@@ -178,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691170117742</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="boton consulta cod y nombre completos">
+      <created>1691170935809</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691170935809</updated>
+    </task>
+    <task id="LOCAL-00007" summary="BOTON CONSULTA SIGNO completo">
+      <created>1691171109805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691171109805</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +202,9 @@
     <MESSAGE value="agregar clase Persona y establecer conexion" />
     <MESSAGE value="boton insetar completadp" />
     <MESSAGE value="bonton delete y update completos" />
-    <option name="LAST_COMMIT_MESSAGE" value="bonton delete y update completos" />
+    <MESSAGE value="boton consulta cod y nombre completos" />
+    <MESSAGE value="BOTON CONSULTA SIGNO completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOTON CONSULTA SIGNO completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
