@@ -2,6 +2,7 @@ package Conexion;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class ConexionBD {
@@ -20,6 +21,19 @@ public class ConexionBD {
             throw new RuntimeException(exception);
         }
     }
+
+    //-----------------------METODO PARA INSERCION/DELETE/UPDATE DE DATOS----------------
+    public int ejecutarQuery(String strSentencia){
+        try {
+            PreparedStatement pstm=connection.prepareStatement(strSentencia);//prepara la sentencia sql para que se pueda ejecutar
+            pstm.execute();//con esto se ejecuta la instruccion SQL
+            return 1;
+        }catch (SQLException sqlException){
+            System.out.println("Hubo un error: "+sqlException);
+            return 0;
+        }
+    }
+
 
 }
 
