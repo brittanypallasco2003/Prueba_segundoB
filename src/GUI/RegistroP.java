@@ -42,6 +42,25 @@ public class RegistroP {
                 conexionMySQL.ejecutarQuery(sentenciaInsert);
             }
         });
+        //--------------------UPDATE-----------------------------------------
+        botonActualizarElPresenteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ConexionBD conexionMysql=new ConexionBD();
+                Persona personaUpdate = recuperarDatosGUI();
+                String strSetenciaUpdate=String.format("UPDATE personas set Nombre='%s' WHERE Codigo='%s';",personaUpdate.getNombre(),personaUpdate.getCodigo());
+                conexionMysql.ejecutarQuery(strSetenciaUpdate);
+            }
+        });
+        botonBorrarElPresenteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ConexionBD conexionMySQL = new ConexionBD();
+                Persona personaDelete =recuperarDatosGUI();
+                String strSetenciaDelete=String.format("DELETE FROM personas WHERE Codigo=%s",personaDelete.getCodigo());
+                conexionMySQL.ejecutarQuery(strSetenciaDelete);
+            }
+        });
     }
 
     //-----METODO PARA RECUPERAR DATOS DE LA GUI A LA CLASE------------------
