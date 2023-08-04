@@ -29,6 +29,9 @@
 ![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/ab4906ca-2427-4519-b8e3-b408926b9f16)
 
 ## BOTON LIMPIAR
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/d6f5fb91-ae21-4a4b-b26d-755113b53b20)
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/e805d0a9-44e0-4e89-84d8-e020a52d0b95)
+
 
 
 
