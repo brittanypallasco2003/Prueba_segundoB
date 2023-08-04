@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab194895-7ec7-4df5-bb33-8f81225e2f3f" name="Changes" comment="boton insetar completadp">
+    <list default="true" id="ab194895-7ec7-4df5-bb33-8f81225e2f3f" name="Changes" comment="bonton delete y update completos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conexion/ConexionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conexion/ConexionBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/RegistroP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/RegistroP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TWhqkc6908HaBIpqrK5BmxJv59" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +57,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RegistroP">
+  <component name="RunManager" selected="Application.RegistroP (4)">
     <configuration name="RegistroP (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.RegistroP" />
       <module name="Prueba_segundoB" />
@@ -68,6 +72,32 @@
       </method>
     </configuration>
     <configuration name="RegistroP (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.RegistroP" />
+      <module name="Prueba_segundoB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistroP (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.RegistroP" />
+      <module name="Prueba_segundoB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistroP (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUI.RegistroP" />
       <module name="Prueba_segundoB" />
       <extension name="coverage">
@@ -95,6 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegistroP (4)" />
+        <item itemvalue="Application.RegistroP (3)" />
         <item itemvalue="Application.RegistroP" />
         <item itemvalue="Application.RegistroP (2)" />
         <item itemvalue="Application.RegistroP (1)" />
@@ -109,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691164939151</updated>
-      <workItem from="1691164940232" duration="4867000" />
+      <workItem from="1691164940232" duration="5668000" />
     </task>
     <task id="LOCAL-00001" summary="creacion del form">
       <created>1691165482640</created>
@@ -139,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691168838246</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bonton delete y update completos">
+      <created>1691170117742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691170117742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +189,8 @@
     <MESSAGE value="Creacion clase conexion" />
     <MESSAGE value="agregar clase Persona y establecer conexion" />
     <MESSAGE value="boton insetar completadp" />
-    <option name="LAST_COMMIT_MESSAGE" value="boton insetar completadp" />
+    <MESSAGE value="bonton delete y update completos" />
+    <option name="LAST_COMMIT_MESSAGE" value="bonton delete y update completos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

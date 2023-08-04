@@ -7,6 +7,7 @@ import PersonaBL.Persona;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.ResultSet;
 
 public class RegistroP {
     private JPanel rootPanel;
@@ -59,6 +60,48 @@ public class RegistroP {
                 Persona personaDelete =recuperarDatosGUI();
                 String strSetenciaDelete=String.format("DELETE FROM personas WHERE Codigo=%s",personaDelete.getCodigo());
                 conexionMySQL.ejecutarQuery(strSetenciaDelete);
+            }
+        });
+        botonBuscarPorCódigoButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ConexionBD conexionMySql=new ConexionBD();
+                Persona personaConsulta=recuperarDatosGUI();
+                try{
+                    ResultSet resultado = conexionMySql.consultarRegistros(String.format("SELECT * FROM personas WHERE Codigo='%s';",personaConsulta.getCodigo()));
+                    //la info obtenida debe ser leida
+                    while (resultado.next()){
+                        //Con esto se lee la info que está en cada columna, por eso se deben poner los labelcolumn como estan en la BD
+                        System.out.println(resultado.getString("Codigo"));
+                        System.out.println(resultado.getString("Cedula"));
+                        System.out.println(resultado.getString("Nombre"));
+                        System.out.println(resultado.getString("FechaNac"));
+                        System.out.println(resultado.getString("Signo"));
+                    }
+                }catch (Exception excp){
+                    System.out.println("Hubo un error: "+excp);
+                }
+            }
+        });
+        botonBuscarPorNombreButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ConexionBD conexionMySql=new ConexionBD();
+                Persona personaConsulta=recuperarDatosGUI();
+                try{
+                    ResultSet resultado = conexionMySql.consultarRegistros(String.format("SELECT * FROM personas WHERE Nombre='%s';",personaConsulta.getNombre()));
+                    //la info obtenida debe ser leida
+                    while (resultado.next()){
+                        //Con esto se lee la info que está en cada columna, por eso se deben poner los labelcolumn como estan en la BD
+                        System.out.println(resultado.getString("Codigo"));
+                        System.out.println(resultado.getString("Cedula"));
+                        System.out.println(resultado.getString("Nombre"));
+                        System.out.println(resultado.getString("FechaNac"));
+                        System.out.println(resultado.getString("Signo"));
+                    }
+                }catch (Exception excp){
+                    System.out.println("Hubo un error: "+excp);
+                }
             }
         });
     }
