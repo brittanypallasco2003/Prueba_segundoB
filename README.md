@@ -16,4 +16,26 @@
 ![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/ff1c7e3a-7171-46d8-a4f1-edbc0bcdbfa6)
 
 
+## consulta por cod
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/9039a230-2b97-4eaf-9697-9da11436cf72)
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/99dcf821-1cf7-4df7-9195-a5f8aefd3f8a)
+
+## consulta por nombre
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/0d9b23c9-37c9-45bc-8a0a-b38245be55f9)
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/b662ca47-7493-4cf6-91a1-c6f179f865ae)
+
+## consultar por signo
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/792b0581-7786-4191-ae2b-4be423a10240)
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/ab4906ca-2427-4519-b8e3-b408926b9f16)
+
+## BOTON LIMPIAR
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/d6f5fb91-ae21-4a4b-b26d-755113b53b20)
+![image](https://github.com/brittanypallasco2003/Prueba_segundoB/assets/117743650/e805d0a9-44e0-4e89-84d8-e020a52d0b95)
+
+
+
+
+
+
+
 
